@@ -1,0 +1,11 @@
+pywin32
+imutils
+mss
+numpy
+opencv-python
+pynput
+six
+termcolor
+colored
+keyboard
+mouse
