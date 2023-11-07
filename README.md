@@ -42,11 +42,11 @@ https://github.com/McDaived/AIMi/assets/18085492/d9e4e81e-ca92-4dcd-b336-ecffec0
 ## ![](https://github.com/McDaived/AIMi/assets/18085492/575d27e7-105d-4861-ba99-79e3ac2432dc)About :
 
 ### Neural network :
-Neural network aimbots are great for a lot of reasons... Probably most importantly, they never access the memory of the game, so they are practically invisible to "Anti-Cheat" sofware. Additionally, they can abstract their capabilities to many different games without code modifications.
+Neural network aimbots are great for a lot of reasons... Probably most importantly, it never access the memory of the game, so it's practically invisible to "Anti-Cheat" sofware, additionally, they can abstract it capabilities to many different games without code modifications.
 ![](https://github.com/McDaived/AIMi/assets/18085492/a861b711-21e4-4d42-bd87-44d35be9b8b2)
 
 ### YOLOvX :
-The detection network is trained on a combination of video game images and the **COCO** dataset, it is optimized to recognize human-like objects as quickly as possible. The detection engine can be abstracted to many FPS games.
+The detection network is trained on a combination of video game images and the **COCO** dataset, it is optimized to recognize human-like objects as quickly as possible, the detection engine can be abstracted to many FPS games.
 
 To know more about [yolov3](https://github.com/ultralytics/yolov3)
 
