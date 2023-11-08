@@ -17,9 +17,9 @@
 - This release is currently optimized for cs2, valorant, fps games, etc..
 - Objects detector gui to make you see how it recognizes the model.
 
-``PS: if you get this messege [WARN:0@2.310], its a warning issued by the opencv library
-because its unable to recognize the CPU because it interferes with CUDA cuz GPU is disabled in this version,
-Its okay, its just a warning, ignore this message because it doesnt stop the program from working, just a warning
+``PS: if you get this messege [WARN:0@2.310], it's a warning issued by the opencv library
+because it's unable to recognize the CPU because it interferes with CUDA because GPU is disabled in this version,
+It's okay, it's just a warning, ignore this message because it doesnt stop the program from working, just a warning
 I will solve this bug in the next release.``
 
 
