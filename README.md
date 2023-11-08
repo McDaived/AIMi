@@ -23,6 +23,11 @@ It's okay, it's just a warning, ignore this message because it doesnt stop the p
 I will solve this bug in the next release.``
 
 
+``when use AIMi you will see slight vibration in aimbot because its a beta version, everything will be improved in the next releases,
+it will be better more accurate in the next releases because it works very well for some people and it works well for me,
+it varies according to the processors that can analyze the neural network , but still work fine .``
+
+
 
 ## ![](https://github.com/McDaived/Discord-Profile-Card/assets/18085492/7a4879fd-97a1-4807-98e5-8f62137dee6e)Preview :
 https://github.com/McDaived/AIMi/assets/18085492/d9e4e81e-ca92-4dcd-b336-ecffec01ed55
