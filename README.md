@@ -45,11 +45,11 @@ https://github.com/McDaived/AIMi/assets/18085492/d9e4e81e-ca92-4dcd-b336-ecffec0
 
 
 
-${\color{red}PS:}$ **If you run the program and it closes immediately, please take the following**
+${\color{red}PS:}$ **If you run the program and it closes immediately or got error about subprocess, please take the following**
 
 ***Download latest version of python then install it like this pictures..***
 
-<img src="https://i.imgur.com/t8BNihH.png" alt="Your Image Description" width="335"><img src="https://i.imgur.com/eW0TQ3B.png" alt="Your Image Description" width="335"><img src="https://i.imgur.com/fuvAhvg.png" alt="Your Image Description" width="335">
+<img src="https://i.imgur.com/t8BNihH.png" alt="Your Image Description" width="260"><img src="https://i.imgur.com/eW0TQ3B.png" alt="Your Image Description" width="260"><img src="https://i.imgur.com/fuvAhvg.png" alt="Your Image Description" width="260">
 
 
 ## ![](https://github.com/McDaived/Discord-Profile-Card/assets/18085492/952742cf-9744-4ccb-9de1-766560ebae12)Features :
