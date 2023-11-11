@@ -76,3 +76,4 @@ it provide an abstraction layer for working with the screen capture data, but it
 
 ![](https://github.com/McDaived/AIMi/assets/18085492/57f36a86-c149-44ac-a140-6fc05a0bad99)
 
+
