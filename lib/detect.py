@@ -14,6 +14,7 @@ import numpy as np
 import pynput
 import keyboard
 from pynput.mouse import Listener
+import winsound
 sct = mss.mss()
 Wd, Hd = sct.monitors[1]["width"], sct.monitors[1]["height"]
 SendInput = ctypes.windll.user32.SendInput
@@ -58,8 +59,8 @@ def aimbot(ENABLE_AIMBOT):
     
     print("\033[1;36m[Status] loading objects detector..")
     net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)#load objects detector
-    net.setPreferableBackend(cv2.dnn.DNN_BACKEND_DEFAULT)
-    net.setPreferableTarget(cv2.dnn.DNN_TARGET_OPENCL)
+    net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
+    net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
     ln = net.getLayerNames()
     ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
 
@@ -105,6 +106,10 @@ def aimbot(ENABLE_AIMBOT):
         status = "hold mode" if aimbot_paused else "always on"
         color = RED if aimbot_paused else GREEN
         print("\nAimbot : " + color + status + RESET)
+        if not aimbot_paused:
+          duration = 100  
+          freq = 440
+          winsound.Beep(freq, duration)
     keyboard.add_hotkey('F1', toggle_aimbot)
     
     
