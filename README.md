@@ -18,7 +18,7 @@
 - Objects detector gui to make you see how it recognizes the model.
 
 
-## ![](https://github.com/McDaived/AIMi/assets/18085492/fbe9cdc5-b23f-4afb-bb7f-1aa8f807dd90) Issues :
+## ![](https://github.com/McDaived/AIMi/assets/18085492/fbe9cdc5-b23f-4afb-bb7f-1aa8f807dd90) Issues - Q&A :
 
 <details> 
         <summary>⚠ About Warning ⚠</summary> 
@@ -42,11 +42,34 @@
           
 </details>
 <details> 
-        <summary>⚠ Slight Vibration ⚠</summary> 
+        <summary>⚠ Slight Vibration Why ?⚠</summary> 
     
 ``when use AIMi you will see slight vibration in aimbot because its a beta version, everything will be improved in the next releases,
 it will be better more accurate in the next releases because it works very well for some people and it works well for me,
  it varies according to the processors that can analyze the neural network , but still work fine .`` 
+
+          
+</details>
+
+<details> 
+        <summary>⚠ Aiming TO The Ground Why?⚠</summary> 
+important: to make it work 
+
+
+  1. disable raw input in any game you want play.
+
+  2. disable enhance pointer : Mouse Properties->Pointer Options->Enhance Pointer Precision
+
+          
+</details>
+
+<details> 
+        <summary>⚠ Mouse Input Doesn't Work In Valorant why? ⚠</summary> 
+if you use it on valorant it dosent work because you need a driver kernal to bypass it, someone was make it work in valorant by using this.
+
+[Click Here](https://www.unknowncheats.me/forum/3912497-post139.html)
+
+IDK, If this work or not but you need driver kernal to bypass it.
 
           
 </details>
@@ -60,15 +83,31 @@ https://github.com/McDaived/AIMi/assets/18085492/d9e4e81e-ca92-4dcd-b336-ecffec0
 2. Download AIMi.
 3. Extract it.
 4. Disable mouse enhance pointer precision, ``Mouse Properties``->``Pointer Options``->``Enhance Pointer Precision``
+5. Disable ${\color{red}RAW}$ ${\color{red}INPUT}$ in any game you want to play, **if available**.
 
 **PS: You do not need to do anything else, just open the program from CMD or double-click, and it will download all the required libraries by it self.**
 
-5. ``Python start.py`` or double-click.
+6. ``Python start.py`` or double-click.
 
-## ![](https://github.com/McDaived/AIMi/assets/18085492/be0dff6f-4ef0-4706-a587-c15ad72ca9ff) Optional Settings :
+## ![](https://github.com/McDaived/AIMi/assets/18085492/be0dff6f-4ef0-4706-a587-c15ad72ca9ff) Settings :
 
 <details> 
-        <summary>For Stretch Screen</summary> 
+        <summary>Optimazing For cs2</summary> 
+    Best Setting for CS2 and make sure use this crosshair or make your own dot crosshair, to make natural network more faster by give some space to analyse model.
+
+1. import this crosshair is game setting ``CSGO-YE93T-V6tTU-Cxa9r-jCf7s-2XJaA ``
+
+2. for best result use this setting
+
+![image](https://github.com/McDaived/AIMi/assets/18085492/5fc8c79b-0dd5-4989-9223-9e93760f84a1)
+
+    
+
+
+</details>
+
+<details> 
+        <summary>For Stretch Screen (Optional)</summary> 
     change line 70 in detect file from lib folder.
     
 ```py
@@ -81,7 +120,7 @@ origbox = (int(Wd/3.1 - ACTIVATION_RANGE/4),#gui box capture
 </details>
 
 <details> 
-        <summary>Change Hotkey hold mode</summary> 
+        <summary>Change Hotkey hold mode (Optional)</summary> 
     line 118 in detect file from lib folder.
     
 ```py
