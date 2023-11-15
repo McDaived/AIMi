@@ -3,7 +3,7 @@
     <a href="https://github.com/McDaived/AIMi">
         <img src="https://github.com/McDaived/AIMi/assets/18085492/56684d14-9573-403e-bb06-6c323d475ebc" alt="Logo" width="500" height="150">
     </a>
-<h4 align="center">AIMi its an AI aimbot, it work by real-time object detection with neural networks, and recognizes the patterns similar to human movements and human formation and matching them with game models, it will identify the head as a target to make the mouse crosshair heading to the target, the AIMi is now being trained to make it pretty good</h4>
+<h4 align="center">AIMi its an AI aimbot, it work by real-time object detection with neural networks, and recognizes the patterns similar to human movements and human formation and matching them with game models, it will identify the head as a target to make the mouse crosshair heading to the target, the AIMi is now being train to be better</h4>
 <h6 align="center">This isn't considered cheating in the games because it doesn't modify the game files or interfere with the games, it only takes control on behalf of the user.</h6>
   <p align="center">
 <img src="https://github.com/McDaived/AIMi/assets/18085492/9e53d002-80ec-472b-9156-5416a061790e" alt="Your Image Description" width="500">
@@ -11,23 +11,45 @@
 
 
 ## ![](https://github.com/McDaived/NoRecoil-CS2/assets/18085492/fdee8c61-c0f7-41a2-80a0-15c1b5f5bb95)Information :
-- It's an improved version of a very old version of YOLOv3, **YOLOv7 will be used in the next release**
+- It's an improved version of a very old version of YOLO, **YOLOv7 will be used in the next release**
 - It's the **CPU 80%-GPU 20%** version only by using OpenCV , **in the next release it will be developed to work on the GPU by CUDA to make it fast and work more accurately,** because building OpenCV with CUDA is a complicated process , and i will make it in easy way.
 - You don't need RTX to make it work.
 - This release is currently optimized for cs2, valorant, fps games, etc..
 - Objects detector gui to make you see how it recognizes the model.
 
+
+## ![](https://github.com/McDaived/AIMi/assets/18085492/fbe9cdc5-b23f-4afb-bb7f-1aa8f807dd90) Issues :
+
+<details> 
+        <summary>⚠ About Warning ⚠</summary> 
+    
 ``PS: if you get this messege [WARN:0@x.xxx], it's a warning issued by the opencv library
-because it's unable to recognize the CPU because it interferes with CUDA because GPU is disabled in this version,
-It's okay, it's just a warning, ignore this message because it doesnt stop the program from working, just a warning
-I will solve this bug in the next release.``
+ because it's unable to recognize the CPU because it interferes with CUDA because GPU and CUDA is disabled in this version,
+ it's automatically will switch to CPU, It's okay, it's just a warning, ignore this message because it doesnt stop the program from working.``
+        
+          
+</details>         
 
+<details> 
+        <summary>⚠ If you run the program and it closes immediately or got error about subprocess, please take the following ⚠</summary> 
+    
+***Download latest version of python then install it like this pictures..***
 
+![](https://github.com/McDaived/AIMi/assets/18085492/d3217d15-7a18-4782-b8f3-d0cbe6acc41d)
+![](https://github.com/McDaived/AIMi/assets/18085492/51b0660c-62f1-475b-8181-df1b9d7bbcdd)
+![](https://github.com/McDaived/AIMi/assets/18085492/489a6c20-3729-4e9c-9ad2-e388e39c4284)
+
+          
+</details>
+<details> 
+        <summary>⚠ Slight Vibration ⚠</summary> 
+    
 ``when use AIMi you will see slight vibration in aimbot because its a beta version, everything will be improved in the next releases,
 it will be better more accurate in the next releases because it works very well for some people and it works well for me,
-it varies according to the processors that can analyze the neural network , but still work fine .``
+ it varies according to the processors that can analyze the neural network , but still work fine .`` 
 
-
+          
+</details>
 
 ## ![](https://github.com/McDaived/Discord-Profile-Card/assets/18085492/7a4879fd-97a1-4807-98e5-8f62137dee6e)Preview :
 https://github.com/McDaived/AIMi/assets/18085492/d9e4e81e-ca92-4dcd-b336-ecffec01ed55
@@ -43,13 +65,32 @@ https://github.com/McDaived/AIMi/assets/18085492/d9e4e81e-ca92-4dcd-b336-ecffec0
 
 5. ``Python start.py`` or double-click.
 
+## ![](https://github.com/McDaived/AIMi/assets/18085492/be0dff6f-4ef0-4706-a587-c15ad72ca9ff) Optional Settings :
+
+<details> 
+        <summary>For Stretch Screen</summary> 
+    change line 70 in detect file from lib folder.
+    
+```py
+origbox = (int(Wd/3.1 - ACTIVATION_RANGE/4),#gui box capture
+               int(Hd/2.5 - ACTIVATION_RANGE/4),
+               int(Wd/4 + ACTIVATION_RANGE/1),
+               int(Hd/2 + ACTIVATION_RANGE/2))
+```
+
+</details>
+
+<details> 
+        <summary>Change Hotkey hold mode</summary> 
+    line 118 in detect file from lib folder.
+    
+```py
+if button == button.x2: #Change this button.x2 for example : button.left for left click mouse
 
 
-${\color{red}PS:}$ **If you run the program and it closes immediately or got error about subprocess, please take the following**
+```
 
-***Download latest version of python then install it like this pictures..***
-
-<img src="https://i.imgur.com/t8BNihH.png" alt="Your Image Description" width="260"><img src="https://i.imgur.com/eW0TQ3B.png" alt="Your Image Description" width="260"><img src="https://i.imgur.com/fuvAhvg.png" alt="Your Image Description" width="260">
+</details>
 
 
 ## ![](https://github.com/McDaived/Discord-Profile-Card/assets/18085492/952742cf-9744-4ccb-9de1-766560ebae12)Features :
@@ -57,6 +98,18 @@ ${\color{red}PS:}$ **If you run the program and it closes immediately or got err
 - (Mouse4) Hold Mode: Press/Release
 - (0) Exit
 - With gui objects detector.
+
+## ![](https://github.com/McDaived/AIMi/assets/18085492/cc9f4ef7-bce7-488a-82dc-e4baa198896a)Change Log :
+```diff
+Update (Nov 15 2023)
++ improve the neural network a little faster.
++ made aimbot a little smooth.
++ Add sound when active aimbot.
++ Add setting for Stretch Screen in Readme.
++ made Aim a little accurate.
++ Fix aim on head.
+```
+
 
 ## ![](https://github.com/McDaived/AIMi/assets/18085492/575d27e7-105d-4861-ba99-79e3ac2432dc)About :
 
